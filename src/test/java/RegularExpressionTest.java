@@ -33,6 +33,7 @@ public class RegularExpressionTest
         assertTrue(RegularExpression.Mac_Adress("01:0C:CD:01:01:21"));
         assertTrue(RegularExpression.Mac_Adress("01-0C-CD-04-00-00"));
         assertTrue(RegularExpression.Mac_Adress("ff:ff:ff:ff:ff:ff"));
+
         assertFalse(RegularExpression.Mac_Adress("gg:dC:cA:56:76:54"));
         assertFalse(RegularExpression.Mac_Adress("00:26:123:00:F2:02"));
         assertFalse(RegularExpression.Mac_Adress("e0:db:55:d5:a9:nn"));
@@ -56,5 +57,22 @@ public class RegularExpressionTest
         assertFalse(RegularExpression.E_mail("this is\"not\\allowed@example.com"));
         assertFalse(RegularExpression.E_mail("QA[icon]CHOCOLATE[icon]@test.com"));
         assertFalse(RegularExpression.E_mail("i_like_underscore@but_its_not_allowed_in_this_part.example.com"));
+    }
+    @Test
+    public void correct_password()
+    {
+        assertTrue(RegularExpression.Correct_password("C00l_Pass"));
+        assertTrue(RegularExpression.Correct_password("SupperPas1"));
+        assertTrue(RegularExpression.Correct_password("Its3Weird"));
+        assertTrue(RegularExpression.Correct_password("To_Check1"));
+        assertTrue(RegularExpression.Correct_password("_SoMan7y"));
+        assertTrue(RegularExpression.Correct_password("_te_S_t_s777"));
+
+        assertFalse(RegularExpression.Correct_password("Cool_pass"));
+        assertFalse(RegularExpression.Correct_password("C00l"));
+        assertFalse(RegularExpression.Correct_password("Not_8"));
+        assertFalse(RegularExpression.Correct_password("_te_s_t_s777"));
+        assertFalse(RegularExpression.Correct_password("123456789"));
+        assertFalse(RegularExpression.Correct_password("____________"));
     }
 }
