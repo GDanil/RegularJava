@@ -49,12 +49,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegularExpressionTest.mac_Adress_1correct">
+  <component name="RunManager" selected="JUnit.RegularExpressionTest.e_mail_correct">
     <configuration name="RegularExpressionTest.TimeCheck_1correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegularExpressionTest" />
       <option name="METHOD_NAME" value="TimeCheck_1correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularExpressionTest.e_mail_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularExpressionTest" />
+      <option name="METHOD_NAME" value="e_mail_correct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegularExpressionTest.e_mail_correct" />
         <item itemvalue="JUnit.RegularExpressionTest.mac_Adress_1correct" />
         <item itemvalue="JUnit.RegularExpressionTest.TimeCheck_1correct" />
       </list>

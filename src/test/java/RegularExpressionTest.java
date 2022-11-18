@@ -40,4 +40,21 @@ public class RegularExpressionTest
         assertFalse(RegularExpression.Mac_Adress("01-zZ-CD-04-00-00"));
         assertFalse(RegularExpression.Mac_Adress("ff:ff:fh:ff:ff:ff"));
     }
+    @Test
+    public void e_mail_correct()
+    {
+        assertTrue(RegularExpression.E_mail("alex@yandex.ru"));
+        assertTrue(RegularExpression.E_mail("user@example.com"));
+        assertTrue(RegularExpression.E_mail("root@localhost"));
+        assertTrue(RegularExpression.E_mail("makarov.petya@mail.ru"));
+        assertTrue(RegularExpression.E_mail("natalya@mail.ru"));
+        assertTrue(RegularExpression.E_mail("Dima@mail.ru"));
+
+        assertFalse(RegularExpression.E_mail("Abc.example.com"));
+        assertFalse(RegularExpression.E_mail("A@b@example.com"));
+        assertFalse(RegularExpression.E_mail("just\"not\"right@example.com"));
+        assertFalse(RegularExpression.E_mail("this is\"not\\allowed@example.com"));
+        assertFalse(RegularExpression.E_mail("QA[icon]CHOCOLATE[icon]@test.com"));
+        assertFalse(RegularExpression.E_mail("i_like_underscore@but_its_not_allowed_in_this_part.example.com"));
+    }
 }
