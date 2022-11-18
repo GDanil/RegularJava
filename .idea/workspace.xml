@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7221a17a-35c2-42b6-a0c4-d4c3a5142f79" name="Changes" comment="" />
+    <list default="true" id="7221a17a-35c2-42b6-a0c4-d4c3a5142f79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegularExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegularExpressionTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HjdFgoUY1A2QDaSgzemsMYDOiB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +35,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": ""
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="RegularExpressionTest.TimeCheck_1correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
@@ -48,6 +74,18 @@
       <option name="presentableId" value="Default" />
       <updated>1668802327378</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавил первый тест &quot;Завтрак в 09:00&quot; к первому заданию">
+      <created>1668802500502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668802500502</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил первый тест &quot;Завтрак в 09:00&quot; к первому заданию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил первый тест &quot;Завтрак в 09:00&quot; к первому заданию" />
   </component>
 </project>
